@@ -23,7 +23,7 @@ jobs:
       with:
         activate-environment: bc_ci_env
         environment-file: ./MLProject/conda.yaml
-          auto-activate-base: false
+        auto-activate-base: false
 
     - name: Run MLflow Project
       shell: bash -l {0}  # ⬅ PENTING! agar conda init bisa bekerja
